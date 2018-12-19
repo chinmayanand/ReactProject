@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>User Profile and Navigator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="MapUsage"></div>
+
+</body>
+<script>
+  $(document).ready(function () {
+    if ($("#form_elements").is(":visible")) {
+      $("#form_elements").hide();
+    }
+    if ($("#or").is(":visible")) {
+      $("#or").hide();
+    }
+    if ($("#location_button").is(":visible")) {
+      $("#location_button").hide();
+    }
+    $('#locate_button').click(function () {
+      $("#form_elements").show();
+      $("#or").show();
+      $("#location_button").show();
+      $(this).hide();
+    })
+    $('#location_button').click(function () {
+      $('#locate_button').show();
+      $("#form_elements").hide();
+      $("#or").hide();
+      $(this).hide();
+    })
+
+    $('#address_button').click(function () {
+      $('#locate_button').show();
+      $("#form_elements").hide();
+      $("#or").hide();
+      $("#location_button").hide();
+      // $("#input_field").val("");
+    })
+  })
+</script>
+
+</html>

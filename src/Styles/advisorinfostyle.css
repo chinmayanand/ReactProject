@@ -1,0 +1,8 @@
+.advisorwindow{
+    border : 3px solid rebeccapurple;
+    background-color:  rgba(255, 255, 255, 0.7);
+}
+.advisorwindowWrongInput{
+    border : 3px solid rebeccapurple;
+    background-color:  rgba(255,0,0, 0.9);
+}

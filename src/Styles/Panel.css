@@ -1,0 +1,21 @@
+.panel-default > .panel-heading {
+    /*color: #333333;*/
+    background-color: #434E3C;
+    border-color: transparent;
+}
+.panel-heading {
+    padding: 21px 33px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.panel-default .panel-heading h3, .panel-default .panel-heading h4 {
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+
+}
+.decorate{
+    background-color:  rgba(255, 255, 255, 0.8);
+   /*background-color:#434E3C;*/
+}

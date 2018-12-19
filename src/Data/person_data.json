@@ -1,0 +1,42 @@
+{
+   "Person_Info":[
+      {
+         "pan":"GHTUO4596L",
+		 "name":"Aryan",
+            "email":"aryan@gmail.com",
+            "address":"Street 192 action area 1 newtown kolkata",
+            "contact":"7676767690",
+            "pending_policy":[
+               {
+                  "tracking_id":"N/A",
+                  "advisor_name":"N/A",
+                  "status":"Not done Pending Need to update your policy"
+               }
+            ],
+            "Life_Insurance":[{"benefits":"Life Type Coverage","Coverage Years":"12 years"}],
+            "Travel_Insurance":[{"benefits":"Coverage during any type of travel extended to one dependent","Coverage Years":"N/A"}],
+            "Home_Insurance":[{"benefits":"Coverage during home emergency","Coverage Years":"6 years"}]
+         
+      },
+	   {
+		"pan":"NMKJI7890Y",
+         
+            "name":"Aakash",
+            "email":"anand@gmail.com",
+            "address":"Street 202 action area 2 newtown kolkata",
+            "contact":"9635821459",
+            "pending_policy":[
+               {
+                  "tracking_id":"policy number 24356 half completed",
+                  "advisor_name":"Rishabh",
+                  "status":"Need to update your policy"
+               }
+            ],
+            "Life_Insurance":[{"benefits":"Life Type Coverage","Coverage Years":"12 years"}],
+            "Travel_Insurance":[{"benefits":"Coverage during any type of travel extended to one dependent","Coverage Years":"N/A"}],
+            "Home_Insurance":[{"benefits":"Raining offers for you all","Coverage Years":"2.5 years"}]
+         
+      }
+	  
+   ]
+}
